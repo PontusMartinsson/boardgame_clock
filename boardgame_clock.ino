@@ -50,8 +50,6 @@ unsigned long gameStartMillis;
 unsigned long turnStartMillis;
 
 void setup() {
-  Serial.begin(9600);
-
   pinMode(joystickBtn, INPUT_PULLUP);
   pinMode(ledPin, OUTPUT);
 
